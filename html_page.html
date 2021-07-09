@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0" >
+<title>notes</title>
+<link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+<div class="top">
+  <div class="heading">
+  <h2> Study Guide</h2>
+  </div>
+
+  <div class="topnav">
+    <a href="js_page.html">JavaScript</a>
+    <a href="css_page.html">CSS</a>
+    <a class="selected" href="#HTML">HTML</a>
+  </div>
+</div>
+
+<hr>
+
+<div class="sidenav">
+  <ul class="bar">
+    <li class="sidenav_heading">HTML</li>
+    <li><a class="selected" href="#html_introduction">Introduction</a></li> 
+    <li><a href="#basic_tags">Basic tags</a></li>
+    <li><a href="#links">Links</a></li>
+  </ul>
+</div>
+
+<div class="content">
+  <div id="html_introduction", class="cont_heading">
+    <h2>HTML Introduction</h2>
+  </div>
+
+  <hr>
+
+  <div class="two_buttons">
+    <a class="left" type="button" href="index.html">Home</a>
+    <a class="right" type="button" href="css_page.html">Next</a>
+  </div>
+
+  <hr>
+
+  <div class="note_sec">
+    <h3>What is HTML?</h3>
+    <ul>
+      <li>HTML is the standart markup language for creating Web pages.</li>
+      <li>HTML stands for Hyper Text Markup Language.</li>
+      <li>HTML describes the structure of a Web page.</li>
+    </ul>
+    <p>A simple html file: </p>
+  
+    <div class="example">
+      &lt;!DOCTYPE html&gt; <br>
+      &lt;html&gt; <br>
+      &lt;head&gt; <br>
+      &lt;title&gt;Page Title&lt;/title&gt;<br>
+      &lt;body&gt; <br>
+      &lt;h1&gt;My first heading&lt;/h1&gt;<br>
+      &lt;p&gt;My first paragraph&lt;/p&gt;<br>
+      &lt;/head&gt; <br>
+      &lt;/head&gt; <br>
+      &lt;/html&gt; <br>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <!--basic tags --> 
+  <div id="basic_tags">
+    <div class="cont_heading">
+      <h2>Basic Tags</h2>
+    </div>
+    <div class="note_sec">
+      <h3>
+        HTML Headings
+      </h3>
+      <p></p>
+      <div class="example">
+        &lt;h1&gt;My first heading&lt;/h1&gt;<br>
+        &lt;h2&gt;My second heading&lt;/h2&gt;<br>
+        &lt;h6&gt;My third heading&lt;/h6&gt;<br>
+      </div>
+      <div class="display">
+        <h1>My first heading</h1>
+        <h2>My second heading</h2>
+        <h6>My third heading</h6>
+      </div>
+      <h3>
+        HTML Paragraphs
+      </h3>
+      <div class="example">
+        &lt;p&gt;This is my first paragraph. This is my first paragraph. This is my first paragraph. This is my first paragraph. This is my first paragraph.&lt;/p&gt;<br>
+      </div>
+      <div class="display">
+        <p>This is my first paragraph. This is my first paragraph. This is my first paragraph. This is my first paragraph. This is my first paragraph.</p>
+      </div
+
+    </div>
+      
+  </div>
+  <hr>
+
+  
+
+  <div class="cont_heading", id="links">
+    <h2>Links</h2>
+  </div>
+  <div class="note_sec">
+    <h3>
+      Link tag
+    </h3>
+    <p>
+      HTML links are hyperlinks. <br>
+      You can click on a link and jump to another document.
+    </p>
+    <div class="example">
+      &lt;a href="URL/path"&gt;This is a link.&lt;/a&gt;<br>
+    </div>
+    <div class="display">
+      <a href="#links", style="font-size: 25px;">This is a link.</a>
+    </div>
+    <h3>
+      The target attribute 
+    </h3>
+    <ul>
+      <li>_self: Default. Opens the document in the same window/tab as it was clicked.</li>
+      <li>_blank: Opens the document in a new window or tab.</li>
+      <li>_parent: Opens the document in the parent frame.</li>
+      <li>_top: Opens the document in the full body of the windows.</li>
+    </ul>
+    <div class="example">
+      &lt;a href="URL/path", target="_self"&gt;This will be open in the same window.&lt;/a&gt;<br>
+    </div>
+    <div class="display">
+      <a href="#links", target="_self", style="font-size: 25px;">This will be open in the same window.</a>
+    </div>
+  </div>
+  <hr>
+  <div class="two_buttons">
+    <a class="left" type="button" href="index.html">Home</a>
+    <a class="right" type="button" href="css_page.html">Next</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

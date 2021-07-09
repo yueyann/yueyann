@@ -1,0 +1,205 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+/* line separation */
+hr {
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0.2px solid rgb(197, 196, 196);
+}
+
+.top {
+    /*background-color: rgb(152, 152, 190);*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-bottom: 0px;
+}
+.heading{
+    display: inline-block;
+    color: rgb(49, 159, 167);
+    font-size: 60px;
+    font-family: Marker Felt;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.topnav {
+    float: right;
+    align-self: center;
+    margin-bottom: 0px;
+    margin-top: 65px;
+    margin-right: 20px;
+
+}
+
+
+.topnav > a {
+    display: inline-block;
+    color: dimgray;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: 1em sans-serif;
+    font-size: 35px;
+}
+
+
+.topnav a.selected {
+    background-color: rgba(49, 159, 167, 0.589);
+    color: floralwhite;
+}
+
+.topnav a:hover:not(.selected){
+    background-color: rgba(49, 159, 167, 0.199);
+    color:floralwhite;
+}
+.bar{
+    float: left;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    width: 15%;
+    max-width: 330px;
+}
+
+.bar li{
+    color: floralwhite;
+    text-decoration: none;
+    font: 1em sans-serif;
+}
+
+.bar .sidenav_heading {
+    font-size: 40px;
+    padding: 10px 0;
+    padding-left: 5%;
+}
+
+.bar li a {
+    display: inline-block;
+    width: 95%;
+    padding: 10px 0;
+    padding-left: 5%;
+    color: honeydew;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bar li a.selected{
+    background-color: goldenrod;
+    color: indianred;
+}
+
+.bar li a:hover{
+    background-color: goldenrod;
+    color: indianred;
+}
+
+.content{
+    float: left;
+    width: 85%;
+}
+
+.cont_heading{
+    color: rgb(83, 85, 87);
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.two_buttons{
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+    
+}
+
+.two_buttons a {
+    background-color: rgba(218, 175, 112, 0.815);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+}
+
+.two_buttons a:hover {
+    background-color: cadetblue;
+}
+
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+
+.note_sec{
+    /*background-color: blue;*/
+    padding: 40px;
+}
+
+.note_sec h3 {
+    font-size: 40px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.note_sec ul {
+    padding-left: 100px;
+}
+.note_sec ul li {
+    /*list-style-type: none;*/
+    padding: 5px;
+    padding-left: 0px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.note_sec p {
+    padding: 5px;
+    padding-left: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.code_block {
+    background-color: rgb(224, 224, 224); 
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.example {
+    background-color: rgb(224, 224, 224);
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px 70px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.display {
+    margin: 20px 70px;
+    padding: 20px;
+}

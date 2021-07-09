@@ -1,0 +1,48 @@
+
+
+
+.heading{
+    display:block;
+    text-align: center;
+    color: rgb(49, 159, 167);
+    font-size: 60px;
+    font-family: Marker Felt;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.middle {
+    
+}
+
+.part {
+    display:inline;
+}
+.part a {
+    display: inline-block;
+    background-color: cadetblue;
+    width: 15%;
+    height: 400px;
+    padding: 5%;
+    margin: 3%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:white;
+    box-shadow:20px 20px rgba(100, 148, 237, 0.26);
+}
+
+.part a:hover{
+    background-image: linear-gradient(rgba(100, 148, 237, 0.26), rgb(223, 132, 99));
+}
+
+.part a h2 {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 40px;
+}
+
+.part a p {
+    font-size: 25px;
+}
